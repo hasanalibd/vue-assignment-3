@@ -8,7 +8,7 @@ import appleicon from './assets/images/app-store.png'
 
 <template>
   <!-- navbar -->
-    <div class="container-fluid bg-body-tertiary fixed-top shadow-sm">
+    <div class="container-fluid bg-body-tertiary sticky-top shadow-sm">
       <nav class="navbar navbar-expand-lg ">
         <div class="container">
           <a class="navbar-brand fs-2 fw-semibold" href="#">Launch</a>
@@ -46,7 +46,7 @@ import appleicon from './assets/images/app-store.png'
     </div>
 
     <!-- hero section -->
-    <div class="container py-5">
+    <div class="container py-5 sm-py-5">
       <div class="row d-flex align-items-center">
         <div class="col-12 col-sm-6">
           <h1 class="display-3 fw-bold">Showcase your <br> app beautifully.</h1>
